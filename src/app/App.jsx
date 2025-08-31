@@ -5,6 +5,7 @@ import { Accordian } from './Accordian/Accordian'
 import './App.css'
 import RandomColor from './RandomColor/RandomColor';
 import StarRating from './starRating/starRating'
+import ImageSlider from './ImageSlider/ImageSlider'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Accordian />
       <RandomColor />
       <StarRating noStar={10} />
+      <ImageSlider />
     </>
   )
 }
