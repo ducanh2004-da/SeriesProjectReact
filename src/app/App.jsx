@@ -6,6 +6,7 @@ import './App.css'
 import RandomColor from './RandomColor/RandomColor';
 import StarRating from './starRating/starRating'
 import ImageSlider from './ImageSlider/ImageSlider'
+import Product from './LoadingProduct/Product'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <RandomColor />
       <StarRating noStar={10} />
       <ImageSlider />
+      <Product />
     </>
   )
 }

@@ -4,3 +4,36 @@
 .hidden{
     display: none;
 }
+
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(100,108,255,0.10);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.imgItem {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgItem img {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(100,108,255,0.08);
+    max-width: 350px;
+    height: auto;
+}
+.visible{
+    display: block;
+}
+.hidden{
+    display: none;
+}
